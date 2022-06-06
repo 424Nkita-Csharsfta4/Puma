@@ -1,0 +1,46 @@
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 2em;
+}
+
+.nav-item .link-item {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1A0A03;
+  opacity: 0.9;
+}
+
+.nav-item .link-item:hover {
+  color: #ea5515;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding-top: 3px;
+}
+
+.nav {
+  text-align: center;
+}
+
+.btn.b {
+  padding: 15px 30px;
+  gap: 10px;
+  background-color: #ea5515;
+  color: #fff;
+}
+
+.btn.b:hover {
+  background-color: #1A0A03;
+  color: #ea5515;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: none;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=header.css.map */

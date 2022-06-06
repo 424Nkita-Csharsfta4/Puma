@@ -1,0 +1,49 @@
+.form-reg{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 1em;
+    .reg-h1{
+        font-family: 'Source Serif Pro',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 140%;
+color: #1A0A03;
+    }
+    .reg-p{
+        font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #1A0A03;
+    }
+}
+.reg-inp{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+width: 526px;
+height: 51px;
+}
+.reg-form{
+    margin-top: 2em;
+}
+.btn-send{
+    background: #EE5514;
+border-radius: 0px 5px 5px 0px;
+width: 117px;
+height: 51px;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 40px;
+gap: 10px;
+color: #fff;
+}
+.btn-send:hover{
+    border: none;
+  transition: 0.6s;
+  background-color: #ddd;
+  color: #1A0A03;
+}
